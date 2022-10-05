@@ -2,7 +2,7 @@
 
 [Live webpage](https://mjstephenson.github.io/Explorage-Mini-project/)
 
-![Mockup image]()
+![Mockup image](docs/testing/testpic.png)
 
 ## Project Overview
 
