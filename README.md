@@ -1,108 +1,125 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Explorage-Mini-Project
 
-Welcome MJstephenson,
+[Live webpage]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mockup image]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Project Overview
 
-## Gitpod Reminders
+To produce a 1 page responsive site with links in a day to show how I can apply my knowledge from my course as part of my application for a role as Junior Develooper with Explorage. The project is based on providing storage solutions.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals 
 
-`python3 -m http.server`
+### User Goals
 
-A blue button should appear to click: _Make Public_,
+- To be able to navigate the site via links on the nav bar
+- To get a quick understanding of what the site is about
+- to be aware of what the company offers, what the company does, past projects, and the staff
+- to be able to contact the company
 
-Another blue button should appear to click: _Open Browser_.
+### Site Owner Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- To get users to be aware of what the company offers, what the company does, past projects, and who the staff are and make an enquiry
 
-A blue button should appear to click: _Make Public_,
+### Target Audience
 
-Another blue button should appear to click: _Open Browser_.
+- For Explorage dev team and CEO
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design
 
-To log into the Heroku toolbelt CLI:
+### Design Choices
+The carousel was selected so that images and text could be displayed clearly and effectively. Cards were chosen to display within the varous sections of the site so that information and images are clearly defined.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Colour
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The backround colour was selected to keep the site simple and crisp whist allowing good contrast for the cards and text. #e8ebec
 
-------
+### Fonts
 
-## Release History
+Google fonts was utilised and the font Montserrat with weights of 300, 400 and 500 selected. this was chosen as it is a clear easy to read font.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Structure
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The page is structured as 1 page with links to the different sections.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Wireframes
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![wireframe] (docs/testing/exploragewiref.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Technologies Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Languages
+- HTML
+- CSS
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Tools
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- GitHub
+- Gitpod
+- Balsamiq
+- Bootstrap
+- Google Fonts
+- Font Awesome
+- Bootsrap fonts
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features
+- The website consists of 1 page and 6 features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Logo and Navigation Bar
+- Features fixed at the top of the page
+- The navbar responds fully and includes links to sections of site  Home, about, services, portfolio, team and Contact.
+- It allows users to easily navigate around the website
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Carousel
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- 3 x images with text referencing what the company offers
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### About
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- brief description about the company
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### services
 
-------
+- 3 cards explaining the services of the company
 
-## FAQ about the uptime script
+### portfolio
 
-**Why have you added this script?**
+- 3 x cards with images and titles of past items to be stored
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Team
 
-**How will this affect me?**
+- 4 cards with an image and bio of staff members
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Contact
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- A form for clients to contact the company with an email, name and query fiels. A submit buttun is included.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: " Your site is published at https://r-moruju.github.io/CI_PP1_TH/"
 
-**So….?**
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
 
-**Can I opt out?**
+## Credits
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+All images are taken from <a href= "https://unsplash.com/">pexels.com</a>  
+the you-tube video by Divinictor which I based my site on and followed along to coding into gitpod <a href= https://www.youtube.com/watch?v=DFUT5s5SasA></a>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Acknowledgements
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Covid-19 for making me feel rotten whist I coded
+My unpowerful chromebook fo contantly lagging with too many apps open
