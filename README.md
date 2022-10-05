@@ -44,7 +44,7 @@ The page is structured as 1 page with links to the different sections.
 
 ### Wireframes
 
-![wireframe] (docs/testing/exploragewiref.png)
+![wireframe](docs/testing/exploragewiref.png)
 
 ## Technologies Used
 
@@ -99,7 +99,7 @@ The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: " Your site is published at https://r-moruju.github.io/CI_PP1_TH/"
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: " Your site is published at 
 
 You can fork the repository by following these steps:
 1. Go to the GitHub repository
@@ -121,5 +121,5 @@ the you-tube video by Divinictor which I based my site on and followed along to 
 
 ## Acknowledgements
 
-Covid-19 for making me feel rotten whist I coded
-My unpowerful chromebook fo contantly lagging with too many apps open
+- Covid-19 for making me feel rotten whist I coded
+- My unpowerful chromebook fo contantly lagging with too many apps open
