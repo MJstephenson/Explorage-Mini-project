@@ -63,6 +63,10 @@ body {
     height: 100vh;
 }
 
+.services .card-body i {
+	font-size: 45px;
+}
+
 /*================about section=============================*/
 
 
