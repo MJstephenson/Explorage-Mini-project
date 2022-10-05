@@ -51,3 +51,7 @@ body {
 	text-transform: uppercase;
 	font-weight: 500;
 }
+
+.nav-link:hover{
+    color: red;
+}
