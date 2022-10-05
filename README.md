@@ -1,6 +1,6 @@
 # Explorage-Mini-Project
 
-[Live webpage]()
+[Live webpage](https://mjstephenson.github.io/Explorage-Mini-project/)
 
 ![Mockup image]()
 
@@ -99,7 +99,7 @@ The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: " Your site is published at 
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: " Your site is published at https://mjstephenson.github.io/Explorage-Mini-project/
 
 You can fork the repository by following these steps:
 1. Go to the GitHub repository
